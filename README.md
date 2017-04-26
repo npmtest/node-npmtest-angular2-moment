@@ -1,6 +1,6 @@
 # npmtest-angular2-moment
 
-#### test coverage for  [angular2-moment (v1.3.3)](https://github.com/urish/angular2-moment#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-angular2-moment.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular2-moment) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular2-moment.svg)](https://travis-ci.org/npmtest/node-npmtest-angular2-moment)
+#### basic test coverage for  [angular2-moment (v1.3.3)](https://github.com/urish/angular2-moment#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-angular2-moment.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-angular2-moment) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-angular2-moment.svg)](https://travis-ci.org/npmtest/node-npmtest-angular2-moment)
 
 #### Moment.JS pipes for Angular2 (timeago and more)
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-angular2-moment/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-angular2-moment/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-angular2-moment/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-angular2-moment/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-angular2-moment/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-angular2-moment/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-angular2-moment/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-angular2-moment/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-angular2-moment/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-angular2-moment/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-angular2-moment/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-angular2-moment/build/coverage.html/index.html)
 
@@ -149,7 +149,8 @@
         "test": "tslint src/*.ts --exclude=src/*.d.ts && ngc && karma start"
     },
     "typings": "./index.d.ts",
-    "version": "1.3.3"
+    "version": "1.3.3",
+    "bin": {}
 }
 ```
 
